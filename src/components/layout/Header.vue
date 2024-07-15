@@ -9,7 +9,7 @@
       </div>
       <div class="section">
         <button class="menuButton" @click="goToRecommend">
-          <h3>채널</h3>
+          <h3>집들이</h3>
         </button>
       </div>
       <div class="section">
