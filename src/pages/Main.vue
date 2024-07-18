@@ -1,25 +1,17 @@
 <template>
-  <div class="main">
-    <h1>This page is main page.</h1>
-    <div class="mainPost">
-    </div>
-  </div>
+  <MainPost/>
+  <HousePicPost/>
+  <HouseWarmPost/>
 </template>
 
 <script>
-export default {
-  name: "Main"
+import MainPost from "@/components/main/MainPost";
+import HousePicPost from "@/components/main/HousePicPost";
+import HouseWarmPost from "@/components/main/HouseWarmPost";
+export default{
+  name: 'Main',
+  components: {MainPost, HouseWarmPost, HousePicPost},
 };
 </script>
-
 <style scoped>
-.mainPost {
-  width: 60%;
-  padding: 0 340px;
-}
-
-.mainPicture {
-  width: 100%;
-  height: 600px
-}
 </style>

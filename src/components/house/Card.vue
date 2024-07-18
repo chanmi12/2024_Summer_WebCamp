@@ -48,7 +48,6 @@ export default {
         { profileImg: '/img/profile/profile12.jpeg', name: '리처드', houseImg: '/img/housePicture/house12.jpeg', liked: false, likeCount: 0, bookmarked: false, bookmarkCount: 0, commentCount: 3 }
       ]
     });
-
     const toggleLike = (index) => {
       const item = state.items[index];
       item.liked = !item.liked;
@@ -79,6 +78,7 @@ export default {
   flex-wrap: wrap;
   justify-content: space-around;
   box-sizing: border-box;
+  margin-top: 2%;
 }
 
 .card {
