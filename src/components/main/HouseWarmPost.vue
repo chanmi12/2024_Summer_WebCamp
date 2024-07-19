@@ -50,7 +50,7 @@ export default {
   },
   methods: {
     goToHouseWarm() {
-      this.$router.push('/housePicture');
+      this.$router.push('housewarming');
       window.scrollTo(0, 0);
     }
   }

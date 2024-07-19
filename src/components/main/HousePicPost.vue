@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     goToHouseWarm() {
-      this.$router.push('/housewarming');
+      this.$router.push('/housePicture');
       window.scrollTo(0, 0);
     }
   }
